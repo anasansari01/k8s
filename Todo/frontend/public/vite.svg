@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="#4CAF50" stroke="white" stroke-width="10"/>
+
+  <!-- Title Text -->
+  <text x="50%" y="35%" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">To-Do</text>
+  <text x="50%" y="50%" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">List</text>
+
+  <!-- Checkboxes -->
+  <rect x="40" y="70" width="20" height="20" fill="none" stroke="white" stroke-width="3"/>
+  <line x1="40" y1="70" x2="60" y2="90" stroke="white" stroke-width="3"/>
+  
+  <rect x="40" y="110" width="20" height="20" fill="none" stroke="white" stroke-width="3"/>
+  <line x1="40" y1="110" x2="60" y2="130" stroke="white" stroke-width="3"/>
+  
+  <rect x="40" y="150" width="20" height="20" fill="none" stroke="white" stroke-width="3"/>
+  <line x1="40" y1="150" x2="60" y2="170" stroke="white" stroke-width="3"/>
+</svg>
