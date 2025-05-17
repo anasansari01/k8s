@@ -27,7 +27,7 @@ spec:
             limits:
               memory: "512Mi"
               cpu: "500m"
-    volumes: 
-      - name: mongodb-storage
-        persistentVolumeClaim:
-          claimName: mongodb-pvc
+      volumes: 
+        - name: mongodb-storage
+          persistentVolumeClaim:
+            claimName: mongodb-pvc
