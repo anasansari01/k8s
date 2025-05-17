@@ -6,6 +6,7 @@ spec:
   capacity:
     storage: "500Mi"
   volumeMode: Filesystem
+  storageClassName: hostpath
   accessModes: 
     - ReadWriteOnce
   hostPath: 
